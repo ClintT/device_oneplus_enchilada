@@ -1,6 +1,12 @@
 [
   {
-    "repository": "android_device_oneplus_sdm845-common",
+    "repository": "device_oneplus_sdm845-common",
     "target_path": "device/oneplus/sdm845-common"
+  },
+  {
+    "repository"  : "device_twrp_black",
+    "target_path" : "device/twrp/black/enchilada",
+    "branch"      : "enchilada",
+    "clone-depth" : "1"
   }
 ]
