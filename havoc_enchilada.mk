@@ -35,6 +35,9 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
 WITH_GAPPS := true
 
+# Live Wallpapers
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := havoc_enchilada
 PRODUCT_DEVICE := enchilada
